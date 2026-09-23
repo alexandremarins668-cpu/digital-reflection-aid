@@ -43,7 +43,11 @@ function Cta({ children, dark = true }: { children: React.ReactNode; dark?: bool
 
 function Index() {
   const [testimonial, setTestimonial] = useState(0);
-  const active = testimonials[testimonial];
+  const active = testimonials[testimonial] ?? {
+    quote: "Os resultados estão nos agradando muito",
+    name: "Pit Stop Automotivo",
+    company: "",
+  };
   const move = (direction: number) => setTestimonial((testimonial + direction + testimonials.length) % testimonials.length);
 
   return (
