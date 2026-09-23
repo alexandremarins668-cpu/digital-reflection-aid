@@ -59,7 +59,8 @@ function Index() {
 
       <section id="top" className="hero grid-bg">
         <div className="hero-copy">
-          <h1>Atraia clientes<br />todos os dias usando<br /><span>Google Ads</span></h1>
+          <h1 className="desktop-title">Atraia clientes<br />todos os dias usando<br /><span>Google Ads</span></h1>
+          <h1 className="mobile-title">Atraia<br />clientes<br />todos os<br />dias usando<br /><span>Google Ads</span></h1>
           <p>Mais <strong>clientes todos</strong> os dias com estratégias que colocam sua empresa no <strong>topo do Google</strong>, no momento <strong>exato da compra.</strong></p>
           <Cta>Receber uma análise gratuita</Cta>
           <small>Resposta em até 5 min no WhatsApp</small>
