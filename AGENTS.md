@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Vercel deploys: vite.config.ts switches nitro preset to "vercel" when VERCEL env is set; why: default Cloudflare output breaks on Vercel.
