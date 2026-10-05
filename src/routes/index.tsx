@@ -2,10 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight, Plus } from "lucide-react";
 import { useState } from "react";
 
-import alexandreAsset from "../assets/original/alexandre.png.asset.json";
-import googleAsset from "../assets/original/google.png.asset.json";
-import metaAsset from "../assets/original/meta.png.asset.json";
-import googleAdsAsset from "../assets/original/google-ads.png.asset.json";
+import alexandreImg from "../assets/original/alexandre.png";
+import googleImg from "../assets/original/google.png";
+import metaImg from "../assets/original/meta.png";
+import googleAdsImg from "../assets/original/google-ads.png";
 
 const whatsapp = "https://wa.me/message/WVU5XLXAMEY4K1";
 
