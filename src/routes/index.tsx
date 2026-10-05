@@ -66,9 +66,9 @@ function Index() {
           <small>Resposta em até 5 min no WhatsApp</small>
         </div>
         <div className="hero-visual" aria-label="Alexandre Marins, especialista em tráfego pago">
-          <img className="google-logo" src={googleAsset.url} alt="Google" />
-          <img className="meta-logo" src={metaAsset.url} alt="Meta" />
-          <img className="person" src={alexandreAsset.url} alt="Alexandre Marins" />
+          <img className="google-logo" src={googleImg} alt="Google" />
+          <img className="meta-logo" src={metaImg} alt="Meta" />
+          <img className="person" src={alexandreImg} alt="Alexandre Marins" />
           <div className="nameplate"><strong>Alexandre Marins</strong><span>Especialista em Tráfego Pago</span></div>
         </div>
       </section>
@@ -86,7 +86,7 @@ function Index() {
       <section className="stats-section">
         <div className="stats-heading"><p className="eyebrow"><i /> Especialistas em Google</p><h2>Transformamos o Google em um canal previsível de vendas para empresas.</h2></div>
         <div className="stats-grid"><div><strong className="big-stat">500k+</strong><p>Gerados em faturamento com estratégias de Google Ads e Google Meu Negócio.</p></div><div className="stats-copy"><p>Hoje, o Google é o principal ponto de decisão de compra.</p><p>Criamos campanhas inteligentes no Google Ads, fortalecemos sua presença no Google Meu Negócio e desenvolvemos páginas que convertem visitas em clientes.</p><Cta>Descubra como vender pelo Google</Cta></div></div>
-        <div className="feature-image"><img src={googleAdsAsset.url} alt="Página de captura e vendas" /><span>PÁGINAS DE CAPTURA: MÁQUINAS DE VENDAS</span></div>
+        <div className="feature-image"><img src={googleAdsImg} alt="Página de captura e vendas" /><span>PÁGINAS DE CAPTURA: MÁQUINAS DE VENDAS</span></div>
       </section>
 
       <section className="testimonials">
