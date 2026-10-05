@@ -1,0 +1,9 @@
+{
+  "framework": null,
+  "installCommand": "echo sem dependencias",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "headers": [
+    { "source": "/(.*)\\.(webp|jpg)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] }
+  ]
+}
