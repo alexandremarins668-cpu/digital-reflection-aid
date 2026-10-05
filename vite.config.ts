@@ -7,7 +7,7 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 // When built on Vercel, output in Vercel's format instead of the Cloudflare default.
-const onVercel = !!process.env.VERCEL;
+const onVercel = !!process.env["VERCEL"];
 
 export default defineConfig({
   tanstackStart: {
